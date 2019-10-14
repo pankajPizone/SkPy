@@ -276,7 +276,7 @@ class SkypeSettings(SkypeObj):
 
     def __init__(self, skype=None, raw=None):
         super(SkypeSettings, self).__init__(skype, raw)
-        self.flags = set()
+        #self.flags = set()
 
     def syncFlags(self):
         """
